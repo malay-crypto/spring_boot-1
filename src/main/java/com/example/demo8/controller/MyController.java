@@ -14,7 +14,9 @@ import java.nio.file.Paths;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+//@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://react-spring-1.onrender.com")
+//https://react-spring-1.onrender.com
 public class MyController {
 
     @Autowired
